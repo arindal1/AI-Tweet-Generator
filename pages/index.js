@@ -15,10 +15,10 @@ export default function Home() {
       <h1>Idea to Tweet in Seconds ⌛</h1>
       <h2>Generate a personalized tweet from your Idea with our expert tweet-writing AI.</h2>
       <div className="icon-container">
-        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://ai-linkedin-generator.vercel.app/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/arindal1/AI-Tweet-Generator" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
       </div>

@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   try {
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_AI_API_KEY);
     const model = await genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-    const prompt = `Generate a concise and engaging tweet based on this description: ${description}`;
+    const prompt = `Generate a short and engaging tweet based on this description: ${description}`;
     const result = await model.generateContent([prompt]);
 
     if (result && result.response) {
